@@ -20,6 +20,8 @@ python3 -m virtualenv -p python3 .venv
 source .venv/bin/activate
 # Install the requirements
 pip3 install -r requirements.txt
+#install the requirements 
+sudo pip3 install adafruit-circuitpython-mpu6050
 ```
 
 Run
