@@ -22,7 +22,6 @@ def vector_2_degrees(x, y):
 # Given an accelerometer sensor object return the inclination angles of X/Z and Y/Z
 # Returns: tuple containing the two angles in degrees
 
-#print("XZ angle = {:6.2f}deg   YZ angle = {:6.2f}deg, ".format(angle_xz, angle_yz))
 
 def get_inclination(_sensor):
     x, y, z = _sensor.acceleration
@@ -32,4 +31,4 @@ def get_inclination(_sensor):
 while True:
     angle_xz, angle_yz = get_inclination(sensor)
     print("{:.2f},{:.2f}".format(angle_xz, angle_yz))
-    time.sleep(2)
+    time.sleep(30)
