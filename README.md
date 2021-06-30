@@ -5,7 +5,8 @@ Requirements
 --------------------------
 
 - python3
-- virtualenv
+- Raspberry pi 4
+- MPU6000 accelerometer and inclinometer
 
 
 Installation
@@ -34,4 +35,8 @@ source .venv/bin/activate
 python tabla_sensor_rasp.py
 ```
 
-- visit: http://localhost:5000/
+Problems solve
+--------------------------
+If theres an error in virtual enviroment install were the path isnot fount run the next code:
+export PATH=/home/pi/.local/bin:$PAT
+this code import the path for the virtual enviroment 
